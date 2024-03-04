@@ -1,0 +1,242 @@
+body {
+    background-color: black;
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+}
+
+.title {
+    text-align: center;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 36, 0);
+    width: 75%; /* Adjust width as needed */
+    height: 200px;
+    background-color: black;
+    float: left; /* Change float to left */
+}
+
+.logo {
+    
+    width: 25%;
+    height: 200px;
+    background-color: black;
+    float: right;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar {
+     
+    background-color: #333;
+    text-align: center;
+    width: 100%; 
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: red;
+}
+
+.welcome-msg {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.about {
+    background-color: black;
+    color: white;
+    text-align: center; /* Center the text horizontally */
+    padding: 20px;
+}
+
+.about img {
+    display: block; /* Ensure the image is treated as a block element */
+    margin: 0 auto 20px; /* Center the image horizontally and add some bottom margin */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+.about h2 {
+    text-align: center;
+    color: rgb(255, 36, 0);
+}
+
+.about p {
+    text-align: center; /* Adjust text alignment as needed */
+}
+
+
+.testimonial-container {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    width:50%;
+    float: left;
+}
+
+.rating {
+    text-align: center;
+}
+
+.star {
+    font-size: 20px;
+    color: gold;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-info {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.benefits {
+    background-color: black;
+    color: white;
+    text-align: center; /* Center the text horizontally */
+    padding: 20px;
+}
+
+.benefits img {
+    display: block; /* Ensure the image is treated as a block element */
+    margin: 0 auto 20px; /* Center the image horizontally and add some bottom margin */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+.benefits h2 {
+    text-align: center;
+    color:rgb(255, 36, 0);
+}
+
+.benefits p {
+    text-align: center; /* Adjust text alignment as needed */
+}
+
+.container {
+    display: flex;
+  }
+  
+  
+  
+  .box1 {
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("../img/LLClass.jpg");
+    color:rgb(255, 36, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+.box2 {
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("../img/JuniorClass.jpg");
+    color:rgb(255, 36, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+.box3 {
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("../img/AdultClass.jpg");
+    color:rgb(255, 36, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+.registration-form{
+    margin-top: 70px; /* Adjust this value based on your navbar height */
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.registration-form h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0;
+    color: white;
+}
+
+.registration-form p{
+    font-size: 20px;
+    margin: 15px 0;
+    color: white;
+}
+
+.registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.registration-form button:hover{
+    color: red;
+}
